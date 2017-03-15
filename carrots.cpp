@@ -17,3 +17,4 @@ int main()
          << endl;
     return 0;
 }
+//revised from book <C++ primer plus>
