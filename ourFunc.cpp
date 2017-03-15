@@ -21,3 +21,4 @@ void anna(int n) //define the simon() function
     cout << "Anna will read this book " << n << " times.";
     cout << endl;
 }
+//revised from book <C++ primer plus>
