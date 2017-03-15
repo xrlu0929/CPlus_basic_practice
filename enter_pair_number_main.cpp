@@ -9,8 +9,6 @@
 
 #include <iostream>
 
-#include <iostream>
-
 float harmonicMean(int a, int b);   //prototype harmonicMean
 
 int main()
@@ -30,5 +28,5 @@ int main()
 
 float harmonicMean(int a, int b)
 {
-    return 2.0*a*b / (a+b); //find harmonic mean of a & b
+    return 2.0 * a * b / (a + b); //find harmonic mean of a & b
 }
