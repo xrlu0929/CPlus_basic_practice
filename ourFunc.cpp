@@ -1,11 +1,11 @@
 //ourFunc.cpp -- define your own function
 #include <iostream>
-void simon(int);
+void anna(int);
 
 int main()
 {
     using namespace std;
-    simon(3); //call the simon function
+    anna(3); //call the simon function
     cout << "Pick an integer: ";
     int count;
     cin >> count;
@@ -15,9 +15,9 @@ int main()
     return 0;
 }
 
-void simon(int n) //define the simon() function
+void anna(int n) //define the simon() function
 {
     using namespace std;
-    cout << "Simon says touch your toes " << n << " times.";
+    cout << "Anna will read this book " << n << " times.";
     cout << endl;
 }
