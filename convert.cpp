@@ -18,3 +18,4 @@ int stonetolb(int sts)
 {
     return 14 * sts;
 }
+//revised from book <C++ primer plus>
