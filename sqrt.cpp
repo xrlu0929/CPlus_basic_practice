@@ -6,16 +6,17 @@ int main() {
     using namespace std;
     double area;
 
-    cout << "Enter the floor area, in square feet, of your home: ";
+    cout << "Enter the floor area, in square feet, of our classroom: ";
     cin >> area;
 
     double side;
 
     side = sqrt(area);
-    cout << "ThatÕs the equivalent of a square "
+    cout << "That's the equivalent of a square "
          << side
          << " feet to the side."
          << endl;
     cout << "How fascinating!" << endl;
-    //return 0;
+    return 0;
 }
+//revised from book <C++ primer plus>
